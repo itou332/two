@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /admin/
+Allow: /admin/images/
+
+Sitemap: https://github.com/itou332/two/blob/main/sitemap.xml
