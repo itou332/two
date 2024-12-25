@@ -5,23 +5,23 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-<xhtml:link rel=”alternate” hreflang=”en” href=”https://itou332.github.io/two/en/”/>
-<xhtml:link rel=”alternate” hreflang=”fr” href=”https://itou332.github.io/two/fr/”/>
-<xhtml:link rel=”alternate” hreflang=”it” href=”https://itou332.github.io/two/it/”/>
+<xhtml:link rel=”alternate” hreflang=”en” href=”https://itou332.github.io/top_page/en/”/>
+<xhtml:link rel=”alternate” hreflang=”fr” href=”https://itou332.github.io/top_page/fr/”/>
+<xhtml:link rel=”alternate” hreflang=”it” href=”https://itou332.github.io/top_page/it/”/>
 
 <url>
   <loc>https://itou332.github.io/two/</loc>
-  <lastmod>2024-07-09T13:29:24+00:00</lastmod>
+  <lastmod>2024-12-24T13:29:24+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://itou332.github.io/top_page/</loc>
-  <lastmod>2024-07-28T16:35:24+00:00</lastmod>
+  <lastmod>2024-12-24T16:35:24+00:00</lastmod>
   <priority>0.50</priority>
 </url>
 <url>
   <loc>https://itou332.github.io/Privacy-policy/</loc>
-  <lastmod>2022-02-11T06:36:13+00:00</lastmod>
+  <lastmod>2022-12-24T06:36:13+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
