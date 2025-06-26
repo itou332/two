@@ -1,0 +1,40 @@
+html, body {
+  z-index: 1;
+  margin: 0;
+  margin: 0, auto;
+  text-align: center;
+  padding: 0;
+  overflow: hidden;
+}
+
+header {
+  color: #fff;
+  text-align: center;
+  z-index: 3;
+  text-align: center;
+  margin-top: 200px;
+  margin-left: 47.5%;
+  position: absolute;
+}
+
+footer {
+  color: #fff;
+  margin-top: 400px;
+  margin-left: 49%;
+  position: absolute;
+}
+
+@media (width <= 1152px) {
+  .tetris-grid {
+    text-align: center;
+    margin-left: 49.5%;
+  }
+}
+
+@media (width <= 768px) {
+  .tetris1-grid {
+    text-align: center;
+    margin-left: 48.5%;
+  }
+}
+/*# sourceMappingURL=index.af20ad6e.css.map */
