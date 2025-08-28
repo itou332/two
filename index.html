@@ -6,6 +6,33 @@
        <meta charset="utf-8">
        <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
        <link rel="icon" type="image/x-icon" href="./1favicon.60b7784b.png">
+        <script type="speculationrules">
+  {
+    "prerender": [{"where": {"href_matches": "/*"}, "eagerness": "moderate"}],
+    "prefetch": [{"where": {"href_matches": "/*"}, "eagerness": "moderate"}]
+  }
+  </script>
+   <!--browser高速化-->
+    <script>
+    (function() {
+      // Chrome Speculation Rules API対応チェック
+      if (!('supports' in HTMLScriptElement.prototype) || !HTMLScriptElement.supports('speculationrules')) {
+        const prefetchSet = new Set();
+        function onPointerEnter() {
+          if (!prefetchSet.has(this.href)) {
+            prefetchSet.add(this.href);
+            const link = document.createElement('link');
+            link.rel = 'prefetch';
+            link.href = this.href;
+            document.head.appendChild(link);
+          }
+        }
+        document.querySelectorAll('a[href^="/"]').forEach(a => {
+          a.addEventListener('pointerenter', onPointerEnter);
+        });
+      }
+    })();
+  </script>
    </head>
    <link rel="stylesheet" href="./index.af20ad6e.css">
    <body>
